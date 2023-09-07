@@ -32,6 +32,12 @@ header nav a:not(:last-child) {
     color:black;
 }
 
+.about {
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+}
+
 .portfolio {
     margin-top: 35px;
 }
@@ -49,6 +55,16 @@ header nav a:not(:last-child) {
 article a {
     color: black;
 }
+.contact {
+    padding: 25px 0;
+    margin: 25px;
+    text-align: center;
+}
+section p {
+    padding: 10px;
+}
+
+
 footer {
     text-align: center;
 }
