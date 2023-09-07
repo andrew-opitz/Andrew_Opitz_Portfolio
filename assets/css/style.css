@@ -10,6 +10,7 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
 /* GLOBAL CLASSES */
 header {
     background-color: #1c6bc6;
@@ -20,16 +21,18 @@ header {
 }
 
 header h3 {
-    color:#fff;
+    color: #fff;
 }
+
 header nav a:not(:last-child) {
     margin-right: 10px;
 }
+
 /* HERO STYLES */
 .hero {
     padding: 50px 0;
     text-align: center;
-    color:black; 
+    color: black;
 }
 
 #about {
@@ -51,7 +54,7 @@ header nav a:not(:last-child) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    color:black;
+    color: black;
 }
 
 #large {
@@ -65,6 +68,7 @@ header nav a:not(:last-child) {
     text-align: center;
     font-weight: bold;
 }
+
 section p {
     padding: 10px;
 }
