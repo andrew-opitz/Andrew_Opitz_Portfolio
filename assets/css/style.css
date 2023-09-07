@@ -29,10 +29,10 @@ header nav a:not(:last-child) {
 .hero {
     padding: 50px 0;
     text-align: center;
-    color:black;
+    color:black; 
 }
 
-.about {
+#about {
     text-align: center;
     margin: 25px;
     padding: 25px;
@@ -51,14 +51,19 @@ header nav a:not(:last-child) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    color:black;
 }
-article a {
-    color: black;
+
+#large {
+    width: 350px;
+    height: 150px;
 }
-.contact {
+
+#contact {
     padding: 25px 0;
     margin: 25px;
     text-align: center;
+    font-weight: bold;
 }
 section p {
     padding: 10px;
